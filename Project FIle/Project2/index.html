@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive_size.css">
+    <title>Responsive Web Page</title>
+</head>
+<body>
+    <div class="container_full container_bg">
+        <div class="fix container">
+            <header class="header">
+                <div class="logo_left">
+                    <h1>Blogin</h1>
+                </div>
+                <nav class="nav">
+                    <div class="tgl_btn" onclick="myFunction()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul id="menu">
+                        <li class="active"><a href="#">Journal</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="container_full container_bgg">
+        <div class="fix container">
+            <div class="content_upper">
+                <section class="left_content">
+                    <article class="article_wrapper">
+                        <img src="Image/webimg1.png" alt="">
+                        <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPETATE.</h2>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                        <a class="article_button" href="#">Continue Reading</a>
+                    </article>
+                    <article class="article_wrapper">
+                        <img src="Image/webimg2.png" alt="">
+                        <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPETATE.</h2>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                        <a class="article_button" href="#">Continue Reading</a>
+                    </article>
+                </section>
+                <div class="right_content">
+                    <aside class="aside">
+                        <h2>About Blogin</h2>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <p>Excepteur sint occaecat sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </aside>
+                    <aside class="aside">
+                        <h2>Search</h2>
+                        <input type="text" class="aside_input" placeholder="What are you looking for?">
+                    </aside>
+                    <aside class="aside">
+                        <h2>Stay Tuned</h2>
+                        <div class="email_search">
+                            <input type="email" placeholder="Your Email">
+                            <input type="Submit">
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <div class="content_bottom">
+                <a href="#" class="previous">&#8592;Previous</a>
+                <a href="#" class="next">Next&#8594;</a>
+            </div>
+        </div>
+    </div>
+    <div class="container_full container_bggg">
+        <div class="fix container">
+            <footer class="footer">
+                <h1>Blogin</h1>
+                <p>&copy; 2014 Blogin.com  -  All Rights Reserved  -  Find more free Templates at Pixelhint.com</p>
+                <div class="social_media">
+                    <ul>
+                        <li class="facebook"><a href="#"></a></li>
+                        <li class="twiter"><a href="#"></a></li>
+                        <li class="bm"><a href="#"></a></li>
+                        <li class="active_"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script>
+        function myFunction(){
+            document.getElementById("menu").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
